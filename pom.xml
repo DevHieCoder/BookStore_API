@@ -56,10 +56,11 @@
 	<build>
     <plugins>
         <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
+            <groupId>org.springframework.boot</groupId>
             <artifactId>maven-compiler-plugin</artifactId>
             <version>3.10.1</version>
             <configuration>
+				<mainClass>com.java.bookStore_api.BookStoreApiApplication</mainClass>
                 <source>16</source>
                 <target>16</target>
             </configuration>
